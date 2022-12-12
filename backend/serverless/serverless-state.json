@@ -6,7 +6,7 @@
     },
     "provider": {
       "name": "aws",
-      "runtime": "nodejs16.x",
+      "runtime": "nodejs12.x",
       "stage": "dev",
       "region": "us-east-1",
       "versionFunctions": true,
@@ -495,7 +495,7 @@
               "FunctionName": "mybackend-todo-dev-custom-resource-apigw-cw-role",
               "Handler": "api-gateway-cloud-watch-role/handler.handler",
               "MemorySize": 1024,
-              "Runtime": "nodejs16.x",
+              "Runtime": "nodejs12.x",
               "Timeout": 180,
               "Role": {
                 "Fn::GetAtt": [
@@ -692,7 +692,7 @@
         "package": {},
         "memory": 1024,
         "timeout": 6,
-        "runtime": "nodejs16.x",
+        "runtime": "nodejs12.x",
         "vpc": {},
         "versionLogicalId": "ListTodosLambdaVersionnEE0JHr1wOMvZkOClpKVw9LbChme2LgtgvY2KjteqVc"
       }
