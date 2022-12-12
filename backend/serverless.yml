@@ -1,8 +1,10 @@
+org: patelarpit50
+app: mybackend-todo
 service: mybackend-todo
 
 provider:
   name: aws
-  runtime: nodejs10.x
+  runtime: nodejs16.x
 
 functions:
   listTodos:
