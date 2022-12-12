@@ -210,7 +210,7 @@
           "S3Key": "serverless/mybackend-todo/dev/1670790558439-2022-12-11T20:29:18.439Z/mybackend-todo.zip"
         },
         "Handler": "s_listTodos.handler",
-        "Runtime": "nodejs16.x",
+        "Runtime": "nodejs12.x",
         "FunctionName": "mybackend-todo-dev-listTodos",
         "MemorySize": 1024,
         "Timeout": 6,
