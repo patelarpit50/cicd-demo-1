@@ -14,8 +14,8 @@ phases:
   build:
     commands:
       - echo Deploying todo API
-      - serverless deploy
       - serverless login
+      - serverless deploy
       - echo Finished deploying todo API
 
 cache:
