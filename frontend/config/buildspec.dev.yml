@@ -16,7 +16,6 @@ phases:
       - echo Building artifacts
       - npm run build
       - echo Deploying artifacts
-      - npm run deploy-dev
       - echo Invalidating cloudfront cache
       - npm run cache-bust-dev
 
